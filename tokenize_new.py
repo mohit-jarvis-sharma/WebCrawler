@@ -22,5 +22,3 @@ def tokenized_text(text):
     #clean_words = remove_stop_words(words)
     final_list = [lemma.lemmatize(wordy).lower() for wordy in words]
     return final_list
-
-print(tokenized_text("computation computer compute computing"))
